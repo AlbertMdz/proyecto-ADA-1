@@ -18,13 +18,18 @@ public class prueba {
             
             
         /*
+        ErdosRenyi30 = new ErdosRenyi(30,1000,true, false);
+        er.ConstruyeGrafo();
+        er.EscribeArchivo();    
             
-            
-        Erdos_Renyi er = new Erdos_Renyi(100,1000,true, false);
+        ErdosRenyi100 = new ErdosRenyi(100,1000,true, false);
+        er.ConstruyeGrafo();
+        er.EscribeArchivo();
+        ErdosRenyi500 = new ErdosRenyi(500,1000,true, false);
         er.ConstruyeGrafo();
         er.EscribeArchivo();
         
-        Gilbert gil = new  Gilbert(30, 0.6f, true, false);
+        Gilbert gil30 = new  Gilbert(30, 0.6f, true, false);
         gil.ConstruyeGrafo();
         gil.EscribeArchivo();
         
@@ -36,22 +41,17 @@ public class prueba {
         gil500.ConstruyeGrafo();
         gil500.EscribeArchivo();
         
-        Geografico g30 = new Geografico (30, 0.35f, true, false);
+        Geografico g30 = new ModeloGeografico (30, 0.35f, true, false);
         g30.ConstruyeGrafo();
         g30.EscribeArchivo();
         
-        Geografico g100 = new Geografico (100, 0.35f, true, false);
+        Geografico g100 = new ModeloGeografico (100, 0.35f, true, false);
         g100.ConstruyeGrafo();
         g100.EscribeArchivo();
         
-        Geografico g500 = new Geografico (500, 0.35f, true, false);
+        Geografico g500 = new ModeloGeografico (500, 0.35f, true, false);
         g500.ConstruyeGrafo();
-        g500.EscribeArchivo();
-        
-        Geografico g501 = new Geografico (501, 0.1f, true, false);
-        g501.ConstruyeGrafo();
-        g501.EscribeArchivo();
-        
+        g500.EscribeArchivo();         
         
         BarabasiAlbert baGrafo30 = new BarabasiAlbert(30,5,true, false);
         baGrafo30.ConstruyeGrafo();
